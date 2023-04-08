@@ -566,6 +566,14 @@ video {
   display: table;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
