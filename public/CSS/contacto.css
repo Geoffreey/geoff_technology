@@ -1,0 +1,51 @@
+body{
+	background: url(galeria/fondo2.jpg);
+	font-family: arial;
+    width: auto;
+
+}
+
+#main-container {
+
+   margin: 150px auto;
+   width:  600px;
+}
+table{
+
+	background-color:gray;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%; 
+
+}
+th, td{
+	padding: 20px;
+
+
+
+}
+thead{
+
+	background-color: blue;
+	border-bottom: solid 5px #0f362d;
+	color: white; 
+
+}
+
+tr:nth-child(even){
+background-clip: #ddd; 
+background-color: aliceblue;
+
+}
+tr:hover td{
+	background-color: white;
+	color:black;
+}
+
+h1.{
+    background-color: white;
+    font-family: ariel: 
+}
+h2{
+    background-color: aliceblue;
+}
